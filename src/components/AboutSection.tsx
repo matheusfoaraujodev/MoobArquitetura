@@ -1,6 +1,6 @@
 export default function AboutSection() {
     return (
-      <section id="sobre" className="px-6 py-16 sm:px-8 md:px-20 lg:px-32 bg-background text-foreground">
+      <section id="about" className="px-6 py-16 sm:px-8 md:px-20 lg:px-32 bg-background text-foreground">
         <div className="max-w-3xl mx-auto text-center md:text-left flex flex-col md:flex-row items-center gap-8">
           <img
             src="/arquiteta.jpg"

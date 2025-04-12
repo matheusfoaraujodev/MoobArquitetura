@@ -2,12 +2,12 @@ import { getProjects } from "@/lib/projects";
 import Link from "next/link";
 import Image from "next/image";
 
-const projetos = getProjects();
+const projects = getProjects();
 
 export default function ProjectsSection() {
   return (
     <section
-      id="projetos"
+      id="projects"
       className="px-6 py-16 sm:px-8 md:px-20 lg:px-32 bg-card text-card-foreground"
     >
       <div className="max-w-6xl mx-auto">
@@ -18,9 +18,9 @@ export default function ProjectsSection() {
         </p>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {projetos.map((p) => (
+          {projects.map((p) => (
             <Link
-              href={`/projetos/${p.slug}`}
+              href={`/projects/${p.slug}`}
               key={p.slug}
               className="group relative aspect-video h-[210px] overflow-hidden rounded-2xl"
             >

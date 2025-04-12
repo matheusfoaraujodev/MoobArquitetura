@@ -70,7 +70,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contato" className="py-16 px-4 max-w-[1140px] mx-auto space-y-16">
+    <section id="contact" className="py-16 px-4 max-w-[1140px] mx-auto space-y-16">
       {/* Formulário de Contato */}
       <div>
         <div className="text-center mb-10">
